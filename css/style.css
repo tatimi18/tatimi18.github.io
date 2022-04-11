@@ -1,0 +1,221 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    position:fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    z-index: 2;
+}
+header {
+    position: relative;
+    height: 50px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+   }
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+.subheader {
+    top: 50px;
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader .subheader_official {
+    margin-top: 3px;
+    opacity: 0.6;
+    font-weight: 100;
+    font-size: 13px;
+    align-items: center;
+    color: #FFFFFF;
+}
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 21px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.subheader a.subheader_number {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.subheader .subheader_btn {
+    margin-top: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-weight: 400;
+
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.promo {
+    padding: 150px 0 135px 0;
+    min-height: 800px;
+    background: url('../img/bg/uber_bg.jpg') center center/cover no-repeat;
+    display: block;
+}
+.promo .promo_header {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.promo .promo_subheader {
+    margin: 0;
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.promo .promo_text {
+    margin-bottom: 0;
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.promo .promo_btn {
+    display: block;
+    margin: 115px auto 0 auto;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.reason {
+    padding: 18px 0 54px;
+    min-height: 850px;
+}
+.lable {
+    display: block;
+    margin: 0px auto;
+    align-items: center;
+    font-weight: 400;
+    line-height: 29px;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    width: 115px;
+    height: 27px;
+    background: #000000;
+}
+.title {
+    margin: 0;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reason .reason_item {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+
+.reason .reason_item_left {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+.reason .reason_item .reason_round {
+    display: flex;
+    margin-right: 25px;    
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 58px;
+    justify-content: center;
+    align-items: center;
+
+}
+.reason .reason_item .reason_descr_1 {
+    width: 371px;
+}
+.reason .reason_item .reason_descr_2 {
+    width: 341px;
+}
+
+.reason .reason_descr_header {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+.reason .reason_descr_text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+
+.container {
+    width: 1140px;
+}
